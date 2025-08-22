@@ -1,66 +1,35 @@
 {
-    "projects": ["AbiJector", "AbikusWebsite", "AbiYT-dlp"],
-
-    "AbiJector": {
-        "title": "AbiJector",
-        "desc": "A simple Python program that can insert .dll into games (or in rare cases into applications) for cheats or something else.",
-        "link": "https://github.com/AbikusSudo/AbiJector",
-        "stat": "Beta",
-        "features": [
-            "Inject DLLs into games",
-            "Lightweight and fast",
-            "Simple CLI interface"
-        ],
-        "usage": [
-            "python abi_jector.py target_game.dll",
-            "Select target process and inject"
-        ],
-        "links": [
-            { "label": "GitHub", "url": "https://github.com/AbikusSudo/AbiJector" }
-        ]
-    },
-
-    "AbikusWebsite": {
-        "title": "AbikusWebsite",
-        "desc": "This is my website, welcome.",
-        "link": "https://github.com/AbikusSudo/AbikusWebsite",
-        "stat": "Beta",
-        "features": [
-            "Showcase projects",
-            "Dark / Light theme toggle",
-            "Searchable project list"
-        ],
-        "usage": [
-            "Visit the website at your browser",
-            "Click on project cards for details"
-        ],
-        "links": [
-            { "label": "Website", "url": "https://AbikusSudo.github.io/" },
-            { "label": "GitHub", "url": "https://github.com/AbikusSudo/AbikusWebsite" }
-        ]
-    },
-
-    "AbiYT-dlp": {
-        "title": "AbiYT-dlp",
-        "desc": "AbiYT-dlp is a Python library with full-featured YouTube video downloader. It allows fast downloading of videos, playlists, and channels, supports format conversion, proxy usage, and integrates easily with other tools.",
-        "link": "https://github.com/AbikusSudo/AbiYT-dlp",
-        "stat": "Work In Progress",
-        "features": [
-            "Download videos, playlists, channels",
-            "Supports multiple formats",
-            "Proxy support"
-        ],
-        "usage": [
-            "python abiyt_dlp.py https://youtube.com/playlist?list=...",
-            "Set options for format or quality"
-        ],
-        "links": [
-            { "label": "GitHub", "url": "https://github.com/AbikusSudo/AbiYT-dlp" }
-        ]
-    },
-
-    "links": {
-        "profile": "https://github.com/AbikusSudo",
-        "website": "https://AbikusSudo.github.io/"
-    }
+  "projects":["AbiJector","AbikusWebsite","AbiYT-dlp","Curkus"],
+  "AbiJector":{
+    "title":"AbiJector",
+    "desc":"A simple Python program that can insert .dll into games (or in rare cases into applications) for cheats or something else.",
+    "stat":"Beta",
+    "link":"https://github.com/AbikusSudo/AbiJector",
+    "features":["DLL injection","Game support","Simple UI"],
+    "usage":["Check USAGE.md"]
+  },
+  "AbikusWebsite":{
+    "title":"AbikusSudo.GitHub.io/",
+    "desc":"This is my website, welcome.",
+    "stat":"Beta",
+    "link":"https://github.com/AbikusSudo/abikussudo.github.io",
+    "features":["Responsive design","Light/Dark theme"],
+    "usage":["I will remind you. You already on website -_-"]
+  },
+  "Curkus":{
+  "title":"Curkus",
+  "desc":"A versatile command-line tool and library for URL-based data transfers across numerous protocols, featuring a rich set of powerful options.",
+  "stat":"Work In Progress",
+  "link":"#",
+  "features":["Multiple protocol support","Advanced options","Only CLI usage because i broken lib somehow -_-"],
+  "usage":["curkus https://example.com"]
+  },
+  "AbiYT-dlp":{
+    "title":"AbiYT-dlp",
+    "desc":"AbiYT-dlp is a Python library with full-featured YouTube video downloader. It allows fast downloading of videos, playlists, and channels, supports format conversion, proxy usage, and integrates easily with other tools.",
+    "stat":"Work In Progress",
+    "link":"https://github.com/AbikusSudo/AbiYT-dlp",
+    "features":["Download videos","Download playlists","Proxy support","Format conversion"],
+    "usage":["abiyt-dlp https://youtube.com/..."]
+  }
 }

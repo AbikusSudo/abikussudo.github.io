@@ -1,33 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AbikusSudoTM — Projects</title>
 <link rel="preload" as="image" href="Logo_L.png">
 <link rel="preload" as="image" href="logo_D.png">
-<link rel="stylesheet" href="style.css" />
-<link id="favicon" rel="icon" type="image/png" href="Logo_L.png">
-
-<script>
-  (function () {
-    try {
-      const saved = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      const theme = saved || (prefersDark ? 'dark' : 'light');
-      document.documentElement.setAttribute('data-theme', theme);
-    } catch(e) {}
-  })();
-</script>
+<link rel="stylesheet" href="style.css">
+<link id="favicon" rel="icon" type="image/png" href="logo_D.png">
 </head>
 <body>
-<div id="loader" class="loader">
+
+<!-- Loader -->
+<div id="loader">
   <div class="loader-card">
     <img class="loader-logo" src="Logo_L.png" alt="Logo">
     <div class="loader-title">AbikusSudoTM</div>
-    <div class="loader-sub" id="loaderSub">Preparing assets…</div>
+    <div class="loader-sub" id="loaderSub">Fetching project list…</div>
     <div class="progress">
-      <div id="progressBar" class="progress-bar" style="width:0%"></div>
+      <div id="progressBar"></div>
     </div>
     <div class="progress-info" id="progressInfo">0%</div>
   </div>
@@ -35,7 +26,7 @@
 
 <header>
   <div id="brand">
-    <img id="logo" alt="AbikusSudoTM logo" src="Logo_L.png" data-light="Logo_L.png" data-dark="logo_D.png">
+    <img id="logo" alt="AbikusSudoTM logo" src="logo_D.png" data-light="Logo_L.png" data-dark="logo_D.png">
     <div>
       <div class="site-title">AbikusSudoTM</div>
       <div class="site-sub" id="siteSub">Open-source projects showcase</div>
@@ -45,11 +36,11 @@
   <div class="controls">
     <button id="themeBtn" class="btn ghost" title="Toggle light / dark theme">Toggle theme</button>
     <a class="btn" href="https://github.com/abikussudo" target="_blank" rel="noopener">GitHub</a>
-    <select id="langSelect" class="btn ghost" title="Select language" aria-label="Language">
+    <select id="langSelect" class="btn ghost" aria-label="Language">
       <option value="en">EN</option>
       <option value="ru">RU</option>
     </select>
-    <input id="searchInput" type="text" placeholder="Search projects..." class="search-box" />
+    <input id="searchInput" type="text" placeholder="Search projects..." class="search-box">
   </div>
 </header>
 
@@ -67,16 +58,14 @@
     </div>
   </section>
 
-  <section id="projects" class="projects-grid">
-    <!-- Cards injected by JS -->
-  </section>
+  <section id="projects" class="projects-grid"></section>
 </main>
 
-<footer id="footer">© 2025 AbikusSudoTM — Making codes for world.</footer>
+<footer id="footer">TM 2025 AbikusSudo — Making codes for world.</footer>
 
 <div id="overlay" class="overlay" role="dialog" aria-hidden="true">
   <div class="modal" id="modal" role="document" aria-modal="true">
-    <button id="closeModal" class="btn ghost modal-close">×</button>
+    <button id="closeModal" class="btn ghost modal-close">Close</button>
     <div id="modalContent"></div>
   </div>
 </div>
