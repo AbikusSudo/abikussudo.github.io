@@ -1,0 +1,47 @@
+{
+  "projects": ["AbiJector", "AbikusWebsite", "AbiYT-dlp", "Curkus"],
+  "AbiJector": {
+    "title": "AbiJector",
+    "desc": "A simple Python program that can insert .dll into games (or in rare cases into applications) for cheats or something else.",
+    "stat": "Beta",
+    "link": "https://github.com/AbikusSudo/AbiJector",
+    "features": ["DLL injection", "Game support", "Simple UI"],
+    "usage": ["Check USAGE.md"],
+    "links": [
+      {"url": "https://github.com/AbikusSudo/AbiJector", "label": "GitHub"}
+    ]
+  },
+  "AbikusWebsite": {
+    "title": "AbikusSudo.GitHub.io/",
+    "desc": "This is my website, welcome.",
+    "stat": "Alpha",
+    "link": "https://github.com/AbikusSudo/abikussudo.github.io",
+    "features": ["Responsive design", "Light/Dark theme"],
+    "usage": ["I will remind you. You already on website -_-"],
+    "links": [
+      {"url": "https://github.com/AbikusSudo/abikussudo.github.io", "label": "GitHub"}
+    ]
+  },
+  "Curkus": {
+    "title": "Curkus",
+    "desc": "A versatile command-line tool and library for URL-based data transfers across numerous protocols, featuring a rich set of powerful options.",
+    "stat": "Work In Progress",
+    "link": "#",
+    "features": ["Multiple protocol support", "Advanced options", "Only CLI usage because i broken lib somehow -_-"],
+    "usage": ["curkus https://example.com"],
+    "links": [
+      {"url": "#", "label": "Download / Docs"}
+    ]
+  },
+  "AbiYT-dlp": {
+    "title": "AbiYT-dlp",
+    "desc": "AbiYT-dlp is a Python library with full-featured YouTube video downloader. It allows fast downloading of videos, playlists, and channels, supports format conversion, proxy usage, and integrates easily with other tools.",
+    "stat": "Work In Progress",
+    "link": "https://github.com/AbikusSudo/AbiYT-dlp",
+    "features": ["Download videos", "Download playlists", "Proxy support", "Format conversion"],
+    "usage": ["abiyt-dlp https://youtube.com/..."],
+    "links": [
+      {"url": "https://github.com/AbikusSudo/AbiYT-dlp", "label": "GitHub"}
+    ]
+  }
+}

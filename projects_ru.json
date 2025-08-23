@@ -1,0 +1,47 @@
+{
+  "projects": ["AbiJector", "AbikusWebsite", "AbiYT-dlp", "Curkus"],
+  "AbiJector": {
+    "title": "AbiJector",
+    "desc": "Простая программа на Python, которая может внедрять .dll в игры (или в редких случаях в приложения) для читов или чего-то ещё.",
+    "stat": "Бета",
+    "link": "https://github.com/AbikusSudo/AbiJector",
+    "features": ["Внедрение DLL", "Поддержка игр", "Простой интерфейс"],
+    "usage": ["Смотрите USAGE.md"],
+    "links": [
+      {"url": "https://github.com/AbikusSudo/AbiJector", "label": "GitHub"}
+    ]
+  },
+  "AbikusWebsite": {
+    "title": "AbikusSudo.GitHub.io/",
+    "desc": "Это мой сайт, добро пожаловать.",
+    "stat": "Альфа",
+    "link": "https://github.com/AbikusSudo/abikussudo.github.io",
+    "features": ["Адаптивный дизайн", "Светлая/Тёмная темы"],
+    "usage": ["Я напомню. Ты уже на сайте -_-"],
+    "links": [
+      {"url": "https://github.com/AbikusSudo/abikussudo.github.io", "label": "GitHub"}
+    ]
+  },
+  "Curkus": {
+    "title": "Curkus",
+    "desc": "Универсальная консольная утилита и библиотека для передачи данных по URL с поддержкой множества протоколов, обладающая богатым набором мощных опций.",
+    "stat": "В разработке",
+    "link": "#",
+    "features": ["Поддержка множества протоколов", "Расширенные настройки", "Только CLI, потому что я как-то сломал библиотеку -_-"],
+    "usage": ["curkus https://example.com"],
+    "links": [
+      {"url": "#", "label": "Скачать / Инструкция"}
+    ]
+  },
+  "AbiYT-dlp": {
+    "title": "AbiYT-dlp",
+    "desc": "AbiYT-dlp — это библиотека Python с полнофункциональным загрузчиком видео с YouTube. Она позволяет быстро скачивать видео, плейлисты и каналы, поддерживает конвертацию форматов, использование прокси и легко интегрируется с другими инструментами.",
+    "stat": "В разработке",
+    "link": "https://github.com/AbikusSudo/AbiYT-dlp",
+    "features": ["Загрузка видео", "Загрузка плейлистов", "Поддержка прокси", "Конвертация форматов"],
+    "usage": ["abiyt-dlp https://youtube.com/..."],
+    "links": [
+      {"url": "https://github.com/AbikusSudo/AbiYT-dlp", "label": "GitHub"}
+    ]
+  }
+}
