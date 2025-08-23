@@ -1,34 +1,34 @@
-<svg width="820" height="220" viewBox="0 0 820 220" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="230" viewBox="0 0 850 230" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="curkusGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f9d423">
+    <linearGradient id="abikusGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#12c2e9">
         <animate attributeName="stop-color"
-                 values="#ff4e50;#fc913a;#f9d423;#ff4e50"
-                 dur="8s" repeatCount="indefinite"/>
+                 values="#12c2e9;#c471ed;#f64f59;#12c2e9"
+                 dur="10s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#fc913a">
+      <stop offset="50%" stop-color="#c471ed">
         <animate attributeName="stop-color"
-                 values="#fc913a;#f9d423;#24c6dc;#fc913a"
-                 dur="8s" repeatCount="indefinite"/>
+                 values="#c471ed;#f64f59;#12c2e9;#c471ed"
+                 dur="10s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#ff4e50">
+      <stop offset="100%" stop-color="#f64f59">
         <animate attributeName="stop-color"
-                 values="#f9d423;#24c6dc;#ff4e50;#f9d423"
-                 dur="8s" repeatCount="indefinite"/>
+                 values="#f64f59;#12c2e9;#c471ed;#f64f59"
+                 dur="10s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
   </defs>
 
-  <text x="40" y="130"
-        fill="url(#curkusGradient)"
-        stroke="url(#curkusGradient)"
-        stroke-width="6"
+  <text x="35" y="145"
+        fill="url(#abikusGradient)"
+        stroke="url(#abikusGradient)"
+        stroke-width="4"
         paint-order="stroke fill"
         stroke-linejoin="round" stroke-linecap="round"
-        font-family="JetBrains Mono, Fira Code, Consolas, Menlo, monospace"
-        font-size="96" font-weight="800"
-        letter-spacing="10"
+        font-family="Segoe UI Black, Arial Black, sans-serif"
+        font-size="90" font-weight="900"
+        letter-spacing="8"
         style="font-kerning: none;">
-    AbikusSudo
+    AbikusSudo™
   </text>
 </svg>
